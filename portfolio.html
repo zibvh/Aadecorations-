@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - AA Decorating | Before & After Gallery</title>
+    <meta name="description" content="View our recent painting and decorating projects across South Wales. Before and after transformations.">
+    
+    <!-- Fonts, Icons, CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header" id="mainHeader">
+        <!-- same header -->
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Our Portfolio</h1>
+                <div class="breadcrumbs">
+                    <a href="index.html">Home</a> / <span>Portfolio</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filter Gallery -->
+        <section class="gallery-section section-padding">
+            <div class="container">
+                <div class="filter-controls" data-aos="fade-up">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="interior">Interior</button>
+                    <button class="filter-btn" data-filter="exterior">Exterior</button>
+                    <button class="filter-btn" data-filter="commercial">Commercial</button>
+                    <button class="filter-btn" data-filter="wallpaper">Wallpaper</button>
+                </div>
+                
+                <div class="gallery-grid" id="galleryGrid">
+                    <!-- Interior Projects -->
+                    <div class="gallery-item interior" data-aos="fade-up">
+                        <div class="gallery-card">
+                            <div class="gallery-ba">
+                                <div class="gallery-before">
+                                    <img src="images/port-int-1-before.jpg" data-src="images/port-int-1-before.jpg" alt="Living room before" class="lazy-image">
+                                    <span class="ba-label before">Before</span>
+                                </div>
+                                <div class="gallery-after">
+                                    <img src="images/port-int-1-after.jpg" data-src="images/port-int-1-after.jpg" alt="Living room after" class="lazy-image">
+                                    <span class="ba-label after">After</span>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <h3>Victorian Terrace Living Room</h3>
+                                <p>Cardiff | Full interior refresh</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item interior" data-aos="fade-up" data-aos-delay="50">
+                        <div class="gallery-card">
+                            <div class="gallery-ba">
+                                <div class="gallery-before">
+                                    <img src="images/port-int-2-before.jpg" data-src="images/port-int-2-before.jpg" alt="Kitchen before" class="lazy-image">
+                                    <span class="ba-label before">Before</span>
+                                </div>
+                                <div class="gallery-after">
+                                    <img src="images/port-int-2-after.jpg" data-src="images/port-int-2-after.jpg" alt="Kitchen after" class="lazy-image">
+                                    <span class="ba-label after">After</span>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <h3>Modern Kitchen Makeover</h3>
+                                <p>Penarth | Cabinet painting & walls</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Exterior Projects -->
+                    <div class="gallery-item exterior" data-aos="fade-up">
+                        <div class="gallery-card">
+                            <div class="gallery-ba">
+                                <div class="gallery-before">
+                                    <img src="images/port-ext-1-before.jpg" data-src="images/port-ext-1-before.jpg" alt="House exterior before" class="lazy-image">
+                                    <span class="ba-label before">Before</span>
+                                </div>
+                                <div class="gallery-after">
+                                    <img src="images/port-ext-1-after.jpg" data-src="images/port-ext-1-after.jpg" alt="House exterior after" class="lazy-image">
+                                    <span class="ba-label after">After</span>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <h3>Semi-Detached Full Exterior</h3>
+                                <p>Barry | Masonry & woodwork</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item exterior" data-aos="fade-up" data-aos-delay="50">
+                        <div class="gallery-card">
+                            <div class="gallery-ba">
+                                <div class="gallery-before">
+                                    <img src="images/port-ext-2-before.jpg" data-src="images/port-ext-2-before.jpg" alt="Fascias before" class="lazy-image">
+                                    <span class="ba-label before">Before</span>
+                                </div>
+                                <div class="gallery-after">
+                                    <img src="images/port-ext-2-after.jpg" data-src="images/port-ext-2-after.jpg" alt="Fascias after" class="lazy-image">
+                                    <span class="ba-label after">After</span>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <h3>Fascias & Windows</h3>
+                                <p>Newport | Woodwork restoration</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Commercial Projects -->
+                    <div class="gallery-item commercial" data-aos="fade-up">
+                        <div class="gallery-card">
+                            <div class="gallery-ba">
+                                <div class="gallery-before">
+                                    <img src="images/port-com-1-before.jpg" data-src="images/port-com-1-before.jpg" alt="Office before" class="lazy-image">
+                                    <span class="ba-label before">Before</span>
+                                </div>
+                                <div class="gallery-after">
+                                    <img src="images/port-com-1-after.jpg" data-src="images/port-com-1-after.jpg" alt="Office after" class="lazy-image">
+                                    <span class="ba-label after">After</span>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <h3>Office Refurbishment</h3>
+                                <p>Cardiff City Centre | 5,000 sq ft</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item commercial" data-aos="fade-up" data-aos-delay="50">
+                        <div class="gallery-card">
+                            <div class="gallery-ba">
+                                <div class="gallery-before">
+                                    <img src="images/port-com-2-before.jpg" data-src="images/port-com-2-before.jpg" alt="Shop before" class="lazy-image">
+                                    <span class="ba-label before">Before</span>
+                                </div>
+                                <div class="gallery-after">
+                                    <img src="images/port-com-2-after.jpg" data-src="images/port-com-2-after.jpg" alt="Shop after" class="lazy-image">
+                                    <span class="ba-label after">After</span>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <h3>Retail Shop Refresh</h3>
+                                <p>Penarth | Weekend project</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Wallpaper Projects -->
+                    <div class="gallery-item wallpaper" data-aos="fade-up">
+                        <div class="gallery-card">
+                            <div class="gallery-ba">
+                                <div class="gallery-before">
+                                    <img src="images/port-wall-1-before.jpg" data-src="images/port-wall-1-before.jpg" alt="Bedroom before" class="lazy-image">
+                                    <span class="ba-label before">Before</span>
+                                </div>
+                                <div class="gallery-after">
+                                    <img src="images/port-wall-1-after.jpg" data-src="images/port-wall-1-after.jpg" alt="Bedroom after" class="lazy-image">
+                                    <span class="ba-label after">After</span>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <h3>Feature Wall Installation</h3>
+                                <p>Barry | Bold geometric pattern</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item wallpaper" data-aos="fade-up" data-aos-delay="50">
+                        <div class="gallery-card">
+                            <div class="gallery-ba">
+                                <div class="gallery-before">
+                                    <img src="images/port-wall-2-before.jpg" data-src="images/port-wall-2-before.jpg" alt="Hallway before" class="lazy-image">
+                                    <span class="ba-label before">Before</span>
+                                </div>
+                                <div class="gallery-after">
+                                    <img src="images/port-wall-2-after.jpg" data-src="images/port-wall-2-after.jpg" alt="Hallway after" class="lazy-image">
+                                    <span class="ba-label after">After</span>
+                                </div>
+                            </div>
+                            <div class="gallery-info">
+                                <h3>Full Hallway & Stairs</h3>
+                                <p>Cardiff | Stripe wallpaper</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio CTA -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Ready for Your Transformation?</h2>
+                    <p>Let's create your before & after story.</p>
+                    <a href="#quote" class="btn btn-primary">Get Free Quote</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <!-- same footer -->
+    </footer>
+
+    <!-- floating buttons & modal -->
+    <div class="floating-actions">
+        <a href="https://wa.me/447417475372" class="floating-whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+447417475372" class="floating-call">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <div class="modal" id="quoteModal">
+        <!-- same modal -->
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
